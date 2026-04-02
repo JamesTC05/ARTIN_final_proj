@@ -8,6 +8,6 @@ download dataset and rename folders to "manipulated" and "original" <br>
 pip install opencv-python facenet-pytorch pandas tqdm <br>
 pip install torchvision <br>
 
-pytorch with CUDA <br>
-pip uninstall torch torchvision torchaudio <br>
+pytorch with CUDA (do this if have nvidia GPU) <br>
+pip uninstall torch torchvision torchaudio (uninstall because if u did pip install torchvision automatically CPU only) <br>
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128 //cu128(depends on gpu) - rtx 5060 <br>
