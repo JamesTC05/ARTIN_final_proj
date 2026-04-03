@@ -18,4 +18,4 @@ extract_faces <br>
 model_setup <br>
 inf <br>
 
-In inf.py line 93  target_video = "./test/tom_cruise_fake.mp4" #change this to any vid <br>
+In inf.py line 93  target_video = "./test/tom_cruise_fake.mp4" #change this to any vid file <br>
