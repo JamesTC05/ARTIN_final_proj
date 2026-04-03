@@ -11,3 +11,11 @@ pip install torchvision <br>
 pytorch with CUDA (do this if have nvidia GPU) <br>
 pip uninstall torch torchvision torchaudio (uninstall because if u did pip install torchvision automatically CPU only) <br>
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128 //cu128(depends on gpu) - rtx 5060 <br>
+
+Run the ff in order:
+parser
+extract_faces
+model_setup
+inf
+
+In inf line 93  target_video = "./test/tom_cruise_fake.mp4" #change this to any vid
